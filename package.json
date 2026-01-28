@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "format": "prettier --write '*.{js,ts,json,md}' 'src/**/*.{css,js,jsx,ts,tsx,json,md}'"
+    "format": "prettier --list-different --write '*.{js,ts,json,md}' 'src/**/*.{css,js,jsx,ts,tsx,json,md}'"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",
